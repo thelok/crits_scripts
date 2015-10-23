@@ -26,8 +26,8 @@ class Command(BaseCommand):
                     dest='agg_obj_by_collection',
                     default=False,
                     action="store_true",
-                    help='Perform lookups for all entries.  Default: Only'
-                         ' perform lookups on entries with blank Firstname'
+                    help='For object types: Aggregate by collection instead of '
+                         'combining all results.'
                     ),
     )
 
