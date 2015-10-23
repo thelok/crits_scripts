@@ -2,6 +2,8 @@
 
 ## get_indicator_types.py
 
+Copy crits/core/managament/commands/get_indicator_types.py into your crits/core/managament/commands/ directory.
+
 ```
 # Usage: python manage.py get_indicator_types [options]
 
